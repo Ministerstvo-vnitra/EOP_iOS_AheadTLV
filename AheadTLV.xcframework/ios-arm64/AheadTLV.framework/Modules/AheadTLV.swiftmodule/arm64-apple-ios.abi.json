@@ -1,0 +1,932 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AheadTLV",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TLVNode",
+        "printedName": "TLVNode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AheadTLV7TLVNodeC11descriptionSSvp",
+            "mangledName": "$s8AheadTLV7TLVNodeC11descriptionSSvp",
+            "moduleName": "AheadTLV",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AheadTLV7TLVNodeC11descriptionSSvg",
+                "mangledName": "$s8AheadTLV7TLVNodeC11descriptionSSvg",
+                "moduleName": "AheadTLV",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TLVNode",
+                "printedName": "AheadTLV.TLVNode",
+                "usr": "s:8AheadTLV7TLVNodeC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TLVNode",
+                "printedName": "AheadTLV.TLVNode",
+                "usr": "s:8AheadTLV7TLVNodeC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AheadTLV7TLVNodeC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8AheadTLV7TLVNodeC2eeoiySbAC_ACtFZ",
+            "moduleName": "AheadTLV",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "tag",
+            "printedName": "tag",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AheadTLV7TLVNodeC3tagSays5UInt8VGvp",
+            "mangledName": "$s8AheadTLV7TLVNodeC3tagSays5UInt8VGvp",
+            "moduleName": "AheadTLV",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.UInt8]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AheadTLV7TLVNodeC3tagSays5UInt8VGvg",
+                "mangledName": "$s8AheadTLV7TLVNodeC3tagSays5UInt8VGvg",
+                "moduleName": "AheadTLV",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AheadTLV7TLVNodeC4dataSays5UInt8VGvp",
+            "mangledName": "$s8AheadTLV7TLVNodeC4dataSays5UInt8VGvp",
+            "moduleName": "AheadTLV",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.UInt8]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AheadTLV7TLVNodeC4dataSays5UInt8VGvg",
+                "mangledName": "$s8AheadTLV7TLVNodeC4dataSays5UInt8VGvg",
+                "moduleName": "AheadTLV",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "children",
+            "printedName": "children",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AheadTLV.TLVNode]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TLVNode",
+                    "printedName": "AheadTLV.TLVNode",
+                    "usr": "s:8AheadTLV7TLVNodeC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AheadTLV7TLVNodeC8childrenSayACGvp",
+            "mangledName": "$s8AheadTLV7TLVNodeC8childrenSayACGvp",
+            "moduleName": "AheadTLV",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AheadTLV.TLVNode]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TLVNode",
+                        "printedName": "AheadTLV.TLVNode",
+                        "usr": "s:8AheadTLV7TLVNodeC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AheadTLV7TLVNodeC8childrenSayACGvg",
+                "mangledName": "$s8AheadTLV7TLVNodeC8childrenSayACGvg",
+                "moduleName": "AheadTLV",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parent",
+            "printedName": "parent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AheadTLV.TLVNode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TLVNode",
+                    "printedName": "AheadTLV.TLVNode",
+                    "usr": "s:8AheadTLV7TLVNodeC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AheadTLV7TLVNodeC6parentACSgvp",
+            "mangledName": "$s8AheadTLV7TLVNodeC6parentACSgvp",
+            "moduleName": "AheadTLV",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AheadTLV.TLVNode?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TLVNode",
+                        "printedName": "AheadTLV.TLVNode",
+                        "usr": "s:8AheadTLV7TLVNodeC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AheadTLV7TLVNodeC6parentACSgvg",
+                "mangledName": "$s8AheadTLV7TLVNodeC6parentACSgvg",
+                "moduleName": "AheadTLV",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(tag:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TLVNode",
+                "printedName": "AheadTLV.TLVNode",
+                "usr": "s:8AheadTLV7TLVNodeC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AheadTLV7TLVNodeC3tag4dataACSays5UInt8VG_AHtcfc",
+            "mangledName": "$s8AheadTLV7TLVNodeC3tag4dataACSays5UInt8VG_AHtcfc",
+            "moduleName": "AheadTLV",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(tagHex:dataHex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TLVNode",
+                "printedName": "AheadTLV.TLVNode",
+                "usr": "s:8AheadTLV7TLVNodeC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AheadTLV7TLVNodeC6tagHex04dataE0ACSS_SStcfc",
+            "mangledName": "$s8AheadTLV7TLVNodeC6tagHex04dataE0ACSS_SStcfc",
+            "moduleName": "AheadTLV",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "getAsTLVBytes",
+            "printedName": "getAsTLVBytes()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AheadTLV7TLVNodeC13getAsTLVBytesSays5UInt8VGyF",
+            "mangledName": "$s8AheadTLV7TLVNodeC13getAsTLVBytesSays5UInt8VGyF",
+            "moduleName": "AheadTLV",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(tag:children:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TLVNode",
+                "printedName": "AheadTLV.TLVNode",
+                "usr": "s:8AheadTLV7TLVNodeC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AheadTLV.TLVNode]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TLVNode",
+                    "printedName": "AheadTLV.TLVNode",
+                    "usr": "s:8AheadTLV7TLVNodeC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AheadTLV7TLVNodeC3tag8childrenACSays5UInt8VG_SayACGtcfc",
+            "mangledName": "$s8AheadTLV7TLVNodeC3tag8childrenACSays5UInt8VG_SayACGtcfc",
+            "moduleName": "AheadTLV",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(tagHex:childs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TLVNode",
+                "printedName": "AheadTLV.TLVNode",
+                "usr": "s:8AheadTLV7TLVNodeC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AheadTLV.TLVNode]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TLVNode",
+                    "printedName": "AheadTLV.TLVNode",
+                    "usr": "s:8AheadTLV7TLVNodeC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8AheadTLV7TLVNodeC6tagHex6childsACSS_SayACGtcfc",
+            "mangledName": "$s8AheadTLV7TLVNodeC6tagHex6childsACSS_SayACGtcfc",
+            "moduleName": "AheadTLV",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8AheadTLV7TLVNodeC",
+        "mangledName": "$s8AheadTLV7TLVNodeC",
+        "moduleName": "AheadTLV",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AheadTLV",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BerTlvAsStructure",
+        "printedName": "BerTlvAsStructure",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "parentsTlv",
+            "printedName": "parentsTlv",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AheadTLV.TLVNode]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TLVNode",
+                    "printedName": "AheadTLV.TLVNode",
+                    "usr": "s:8AheadTLV7TLVNodeC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8AheadTLV17BerTlvAsStructureC07parentsD0SayAA7TLVNodeCGvp",
+            "mangledName": "$s8AheadTLV17BerTlvAsStructureC07parentsD0SayAA7TLVNodeCGvp",
+            "moduleName": "AheadTLV",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AheadTLV.TLVNode]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TLVNode",
+                        "printedName": "AheadTLV.TLVNode",
+                        "usr": "s:8AheadTLV7TLVNodeC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8AheadTLV17BerTlvAsStructureC07parentsD0SayAA7TLVNodeCGvg",
+                "mangledName": "$s8AheadTLV17BerTlvAsStructureC07parentsD0SayAA7TLVNodeCGvg",
+                "moduleName": "AheadTLV",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "parse",
+            "printedName": "parse(bytes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BerTlvAsStructure",
+                "printedName": "AheadTLV.BerTlvAsStructure",
+                "usr": "s:8AheadTLV17BerTlvAsStructureC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AheadTLV17BerTlvAsStructureC5parse5bytesACSays5UInt8VG_tFZ",
+            "mangledName": "$s8AheadTLV17BerTlvAsStructureC5parse5bytesACSays5UInt8VG_tFZ",
+            "moduleName": "AheadTLV",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "create",
+            "printedName": "create(parentNodes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BerTlvAsStructure",
+                "printedName": "AheadTLV.BerTlvAsStructure",
+                "usr": "s:8AheadTLV17BerTlvAsStructureC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AheadTLV.TLVNode]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TLVNode",
+                    "printedName": "AheadTLV.TLVNode",
+                    "usr": "s:8AheadTLV7TLVNodeC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AheadTLV17BerTlvAsStructureC6create11parentNodesACSayAA7TLVNodeCG_tFZ",
+            "mangledName": "$s8AheadTLV17BerTlvAsStructureC6create11parentNodesACSayAA7TLVNodeCG_tFZ",
+            "moduleName": "AheadTLV",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAsTLVBytes",
+            "printedName": "getAsTLVBytes()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AheadTLV17BerTlvAsStructureC03getE8TLVBytesSays5UInt8VGyF",
+            "mangledName": "$s8AheadTLV17BerTlvAsStructureC03getE8TLVBytesSays5UInt8VGyF",
+            "moduleName": "AheadTLV",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "containsTag",
+            "printedName": "containsTag(tagHex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AheadTLV17BerTlvAsStructureC11containsTag6tagHexSbSS_tF",
+            "mangledName": "$s8AheadTLV17BerTlvAsStructureC11containsTag6tagHexSbSS_tF",
+            "moduleName": "AheadTLV",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "containsTag",
+            "printedName": "containsTag(tag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AheadTLV17BerTlvAsStructureC11containsTag3tagSbSays5UInt8VG_tF",
+            "mangledName": "$s8AheadTLV17BerTlvAsStructureC11containsTag3tagSbSays5UInt8VG_tF",
+            "moduleName": "AheadTLV",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getByTag",
+            "printedName": "getByTag(tagHex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AheadTLV.TLVNode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TLVNode",
+                    "printedName": "AheadTLV.TLVNode",
+                    "usr": "s:8AheadTLV7TLVNodeC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AheadTLV17BerTlvAsStructureC8getByTag6tagHexAA7TLVNodeCSgSS_tF",
+            "mangledName": "$s8AheadTLV17BerTlvAsStructureC8getByTag6tagHexAA7TLVNodeCSgSS_tF",
+            "moduleName": "AheadTLV",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getByTag",
+            "printedName": "getByTag(tag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AheadTLV.TLVNode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TLVNode",
+                    "printedName": "AheadTLV.TLVNode",
+                    "usr": "s:8AheadTLV7TLVNodeC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AheadTLV17BerTlvAsStructureC8getByTag3tagAA7TLVNodeCSgSays5UInt8VG_tF",
+            "mangledName": "$s8AheadTLV17BerTlvAsStructureC8getByTag3tagAA7TLVNodeCSgSays5UInt8VG_tF",
+            "moduleName": "AheadTLV",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8AheadTLV17BerTlvAsStructureC",
+        "mangledName": "$s8AheadTLV17BerTlvAsStructureC",
+        "moduleName": "AheadTLV",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AheadTLV",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/ahe_internal\/AheadTLV\/Sources\/AheadTLV\/TLVNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 306,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

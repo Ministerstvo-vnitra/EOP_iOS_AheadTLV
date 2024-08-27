@@ -1,0 +1,38 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AheadTLV
+@_exported import AheadTLV
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public class TLVNode : Swift.Equatable, Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+  public static func == (lhs: AheadTLV.TLVNode, rhs: AheadTLV.TLVNode) -> Swift.Bool
+  final public let tag: [Swift.UInt8]
+  final public let data: [Swift.UInt8]
+  final public let children: [AheadTLV.TLVNode]
+  public var parent: AheadTLV.TLVNode? {
+    get
+  }
+  public init(tag: [Swift.UInt8], data: [Swift.UInt8])
+  convenience public init(tagHex: Swift.String, dataHex: Swift.String)
+  public func getAsTLVBytes() -> [Swift.UInt8]
+  public init(tag: [Swift.UInt8], children: [AheadTLV.TLVNode])
+  convenience public init(tagHex: Swift.String, childs: [AheadTLV.TLVNode])
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class BerTlvAsStructure {
+  final public let parentsTlv: [AheadTLV.TLVNode]
+  public static func parse(bytes: [Swift.UInt8]) -> AheadTLV.BerTlvAsStructure
+  public static func create(parentNodes: [AheadTLV.TLVNode]) -> AheadTLV.BerTlvAsStructure
+  public func getAsTLVBytes() -> [Swift.UInt8]
+  public func containsTag(tagHex: Swift.String) -> Swift.Bool
+  public func containsTag(tag: [Swift.UInt8]) -> Swift.Bool
+  public func getByTag(tagHex: Swift.String) -> AheadTLV.TLVNode?
+  public func getByTag(tag: [Swift.UInt8]) -> AheadTLV.TLVNode?
+  @objc deinit
+}
